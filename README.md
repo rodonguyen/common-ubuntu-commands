@@ -1,13 +1,16 @@
 # common-ubuntu-commands
  
-convert odt to pdf
-	libreoffice --headless --convert-to pdf *.odt
+Convert odt to pdf  
 
-Duplicate / copy
-	cp file_to_copy new_file
+	`libreoffice --headless --convert-to pdf *.odt`
 
-Rename / move
-	mv old_name new_name
+Duplicate / copy  
+
+    `cp file_to_copy new_file`
+
+Rename / move  
+
+	`mv old_name new_name`
 
 
 
