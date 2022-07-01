@@ -2,15 +2,22 @@
  
 Convert odt to pdf  
 
-	`libreoffice --headless --convert-to pdf *.odt`
+	libreoffice --headless --convert-to pdf *.odt
 
 Duplicate / copy  
 
-    `cp file_to_copy new_file`
+    cp file_to_copy new_file
 
 Rename / move  
 
-	`mv old_name new_name`
+	mv old_name new_name
 
+Install Github Desktop:
+
+    https://gist.github.com/berkorbay/6feda478a00b0432d13f1fc0a50467f1
+
+
+
+    
 
 
