@@ -21,6 +21,23 @@ Give access to bash script and run it
     chmod u+x bash-script.sh
     ./bash-script.sh
 
+Turn on/off conservation mode (0: off, 1: on)
+
+    echo 0 | sudo tee /sys/bus/platform/drivers/ideapad_acpi/VPC2004:00/conservation_mode
+
+Edit file with text editor from terminal 
+
+    gedit filename.txt
     
+Things to fix after having installed Ubuntu
+
+	1. Disable secure boot
+	(step 2 and 3 may not necessary if step 1 stops the problems: unable to control brightness, unable to resume after suspending)
+	2. If brightness fn key is not functioning properly, do this https://forums.developer.nvidia.com/t/brightness-not-working-ubuntu-20-04-lenovo-legion-5-15imh05/178058/20 
+	3. Switch to NVIDIA 470 driver in Software & Updates 
+	4. Edit favorites 
+	5. Install other softwares: VSCode, Zoom, OBS, VLC, etc.
+	6. Move data in
+	
 
 
