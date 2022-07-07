@@ -29,6 +29,10 @@ Edit file with text editor from terminal
 
     gedit filename.txt
     
+Count the number of items in a directory
+
+    ls | wc -l
+
 Things to fix after having installed Ubuntu
 
 	1. Disable secure boot
