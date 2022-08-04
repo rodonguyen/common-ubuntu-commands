@@ -1,5 +1,9 @@
 # common-ubuntu-commands
- 
+
+Cancel local commit
+
+	git reset HEAD~1
+	
 Convert odt to pdf  
 
 	libreoffice --headless --convert-to pdf *.odt
