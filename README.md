@@ -8,6 +8,10 @@ Duplicate / copy
 
     cp file_to_copy new_file
 
+Copy files / folder to remote 
+
+	rsync -rv /home/rodo/Documents/GitHub/supertrend-crypto-bot rodo@192.168.1.21:/home/rodo/Documents/GitHub
+
 Rename / move  
 
 	mv old_name new_name
@@ -32,6 +36,12 @@ Edit file with text editor from terminal
 Count the number of items in a directory
 
     ls | wc -l
+
+Remote control Pi Ubuntu
+
+	1. Download and Install VNC Server from its website
+	1. `systemctl start vncserver-virtuald.service`
+	1. Enable 
 
 Things to fix after having installed Ubuntu
 
