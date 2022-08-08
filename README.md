@@ -14,7 +14,7 @@ Duplicate / copy
 
 Copy files / folder to remote 
 
-	rsync -rv /home/rodo/Documents/GitHub/supertrend-crypto-bot/ rodo@192.168.1.21:/home/rodo/Documents/GitHub
+	rsync -rv /home/rodo/Documents/GitHub/supertrend-crypto-bot rodo@192.168.1.21:/home/rodo/Documents/GitHub
 
 Rename / move  
 
